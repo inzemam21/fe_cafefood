@@ -14,7 +14,7 @@ a {
 
 :root {
   --primary-white: #fff;
-  --primary-all-white: #eef3f8;
+  --primary-alt-white: #eef3f8;
   --primary-grey: #333;
   --primary-navbar: #bdf7f7;
   --primary-bg-search: #eef3f8;
@@ -38,4 +38,17 @@ a {
 
 body {
   font-family: "Roboto", sans-serif !important;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 6.4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--primary-white);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-purple);
 }
